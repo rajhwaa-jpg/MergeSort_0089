@@ -10,3 +10,13 @@ void input()
     { 
         cout << "Masukkan panjang element array: ";
         cin >> n;
+
+        if (n <= 20)
+        {
+            break;
+        }
+        else
+        {
+            cout << "\nMaksimal panjang array yang dapat dimasukkan adalah 20." << endl;
+        }
+    }
